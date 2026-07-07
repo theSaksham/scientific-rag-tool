@@ -24,7 +24,7 @@ The goal was to have something I could explain end to end in an interview: every
 
 ## Storage decision -- SQLite instead of PostgreSQL
 
-I initially planned to use PostgreSQL (I use it daily at work on the Magnetic platform). Midway through setup I switched to SQLite. The reasoning:
+I initially planned to use PostgreSQL. Midway through setup I switched to SQLite. The reasoning:
 
 - No server process to manage -- SQLite is just a file
 - ~5,200 abstracts is well within SQLite's comfort zone
